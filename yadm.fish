@@ -1,3 +1,3 @@
 function yadm
-	command yadm --yadm-archive ~/.secret $argv;
+	command yadm --yadm-archive ~/.secret/files.gpg $argv;
 end
