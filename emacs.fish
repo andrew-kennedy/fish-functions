@@ -1,3 +1,3 @@
 function emacs
-	emacsclient -n -c -a "" $argv;
+	emacsclient --no-wait --create-frame --alternate-editor="" $argv;
 end
