@@ -7,4 +7,5 @@ function nvm
     nvm reinstall-packages $PAST_VERSION
   else
     nvm $argv
+  end
 end
